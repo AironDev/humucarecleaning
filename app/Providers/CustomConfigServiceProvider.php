@@ -190,7 +190,7 @@ class CustomConfigServiceProvider extends ServiceProvider
 
             
 
-           /* $this->app['config']['payu'] = [
+            $this->app['config']['payu'] = [
 
                 'mode' => env('PAYU_MONEY_MODE', $settings->payu_money_mode),
 
@@ -198,7 +198,7 @@ class CustomConfigServiceProvider extends ServiceProvider
 
                 'salt' => env('PAYU_BIZ_SALT', $settings->salt),
 
-            ];*/
+            ];
 
 
 
